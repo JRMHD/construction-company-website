@@ -72,7 +72,7 @@
                 <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
                     <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i
                             class="fas fa-search"></i></button>
-                    <a href="{{ url('about') }}"
+                    <a href="{{ url('quoterequest') }}"
                         class="btn btn-secondary py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Get a
                         Quate</a>
                 </div>
@@ -292,7 +292,16 @@
     </div>
     <!-- Services End -->
 
-
+    <div style="background-color: #f2f2f2; padding: 50px 0;">
+        <div style="max-width: 800px; margin: auto; text-align: center;">
+            <h2 style="color: #333; font-size: 32px; margin-bottom: 20px;">Request a Quote</h2>
+            <p style="color: #666; font-size: 18px; margin-bottom: 30px;">Let us bring your project to life. Fill out
+                the form below and we'll get back to you as soon as possible.</p>
+            <a href="{{ url('quoterequest') }}"
+                style="background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; font-size: 16px;">Get
+                Started</a>
+        </div>
+    </div>
 
 
 

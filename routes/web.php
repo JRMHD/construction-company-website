@@ -37,6 +37,9 @@ Route::get('blog', function () {
 Route::get('about', function () {
     return view('about');
 });
+Route::get('quoterequest', function () {
+    return view('quoterequest');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
