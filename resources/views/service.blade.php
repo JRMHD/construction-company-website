@@ -115,180 +115,245 @@
     <!-- Header End -->
 
     <!-- Services Start -->
-    <div class="container-fluid service bg-light py-5">
-        <div class="container py-5">
+    <div class="container-fluid service bg-light pb-5">
+        <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <p class="text-uppercase text-secondary fs-5 mb-0">Our Services</p>
-                <h2 class="display-4 text-capitalize mb-3">Quality Construction Services</h2>
+                <p class="text-uppercase text-secondary fs-5 mb-0">What We Do</p>
+                <h2 class="display-4 text-capitalize mb-3">Kizuri Holding provides excellent values</h2>
             </div>
             <div class="row g-4">
-                <!-- Service 1: General Construction -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-1.jpg" class="img-fluid w-100" alt="Bush Clearing">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
-                                <i class="fas fa-home text-primary fa-4x"></i>
+                                <i class="fas fa-tree text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">General Construction</a>
-                            <p class="text-white mb-4">We provide top-notch general construction services, ensuring
-                                quality and efficiency in every project. From residential buildings to commercial
-                                complexes, we deliver excellence.</p>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Bush Clearing</a>
+                            <p class="text-white mb-4">We offer efficient bush clearing services to prepare land for
+                                various uses.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center ps-4 w-100">
-                                <h4>General Construction</h4>
+                                <h4>Bush Clearing</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-home text-primary fa-2x"></i>
+                                <i class="fas fa-tree text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Service 2: Property Maintenance -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-2.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-2.jpg" class="img-fluid w-100" alt="Equipment Rentals">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
-                                <i class="fas fa-users-cog text-primary fa-4x"></i>
+                                <i class="fas fa-tools text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Property Maintenance</a>
-                            <p class="text-white mb-4">Our property maintenance services ensure that your properties
-                                remain in top condition. From regular inspections to repairs, we've got you covered.</p>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Equipment Rentals</a>
+                            <p class="text-white mb-4">We provide a wide range of equipment rentals for various
+                                projects.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                <h4>Property Maintenance</h4>
+                                <h4>Equipment Rentals</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-users-cog text-primary fa-2x"></i>
+                                <i class="fas fa-tools text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Service 3: Project Management -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-3.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-3.jpg" class="img-fluid w-100"
+                                alt="Mass Excavations / Earth Works">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 120px; height: 120px;">
-                                <i class="fas fa-hospital-user text-primary fa-4x"></i>
+                                <i class="fas fa-digging text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Project Management</a>
-                            <p class="text-white mb-4">Our project management services ensure that your projects are
-                                completed on time and within budget. From planning to execution, we handle it all
-                                efficiently.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Mass Excavations / Earth
+                                Works</a>
+                            <p class="text-white mb-4">We specialize in large-scale excavation and earth works
+                                projects.</p>
+                            <a class="btn btn-secondary py-2 px-4"href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                <h4>Project Management</h4>
+                                <h4>Mass Excavations / Earth Works</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-hospital-user text-primary fa-2x"></i>
+                                <i class="fas fa-digging text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Service 4: Virtual Design & Build -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-4.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-4.jpg" class="img-fluid w-100" alt="Civil Works">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                <i class="fas fa-file-invoice-dollar text-primary fa-4x"></i>
+                                <i class="fas fa-building text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Virtual Design & Build</a>
-                            <p class="text-white mb-4">Our virtual design and build services utilize cutting-edge
-                                technology to bring your ideas to life. From conceptualization to implementation, we
-                                ensure precision and creativity.</p>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Civil Works</a>
+                            <p class="text-white mb-4">Our civil works services include infrastructure development and
+                                maintenance.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                <h4>Virtual Design & Build</h4>
+                                <h4>Civil Works</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-file-invoice-dollar text-primary fa-2x"></i>
+                                <i class="fas fa-building text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Service 5: Preconstruction -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-5.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-5.jpg" class="img-fluid w-100" alt="Structural Works">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                <i class="fas fa-cogs text-primary fa-4x"></i>
+                                <i class="fas fa-wrench text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Preconstruction</a>
-                            <p class="text-white mb-4">Our preconstruction services lay the foundation for successful
-                                projects. From feasibility studies to budgeting, we ensure every aspect is meticulously
-                                planned.</p>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Structural Works</a>
+                            <p class="text-white mb-4">We deliver high-quality structural works for various
+                                construction projects.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                <h4>Preconstruction</h4>
+                                <h4>Structural Works</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-cogs text-primary fa-2x"></i>
+                                <i class="fas fa-wrench text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Service 6: Design Build -->
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="img/service-6.jpg" class="img-fluid w-100" alt="Image">
+                            <img src="img/service-6.jpg" class="img-fluid w-100"
+                                alt="Piping, Fabrication And Installations">
                         </div>
                         <div class="service-content text-center p-4">
                             <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                <i class="fas fa-sitemap text-primary fa-4x"></i>
+                                <i class="fas fa-pipe text-primary fa-4x"></i>
                             </div>
-                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Design Build</a>
-                            <p class="text-white mb-4">Our design build services integrate creativity and functionality
-                                to bring your visions to life. From concept to completion, we handle every step with
-                                precision and care.</p>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Piping, Fabrication And
+                                Installations</a>
+                            <p class="text-white mb-4">Our piping, fabrication, and installation services are
+                                top-notch.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                         <div class="service-tytle">
                             <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                <h4>Design Build</h4>
+                                <h4>Piping, Fabrication And Installations</h4>
                             </div>
                             <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
-                                <i class="fas fa-sitemap text-primary fa-2x"></i>
+                                <i class="fas fa-pipe text-primary fa-2x"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Button for More Services -->
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img\roadworks.jpg" class="img-fluid w-100" alt="Road Works">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                <i class="fas fa-road text-primary fa-4x"></i>
+                            </div>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Road Works</a>
+                            <p class="text-white mb-4">Our road works services ensure the construction and maintenance
+                                of high-quality roads.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
+                        </div>
+                        <div class="service-tytle">
+                            <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                <h4>Road Works</h4>
+                            </div>
+                            <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-road text-primary fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img\translogis.jpg" class="img-fluid w-100" alt="Transport & Logistics">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                <i class="fas fa-shipping-fast text-primary fa-4x"></i>
+                            </div>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Transport & Logistics</a>
+                            <p class="text-white mb-4">We provide reliable transport and logistics services for all
+                                your needs.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
+                        </div>
+                        <div class="service-tytle">
+                            <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                <h4>Transport & Logistics</h4>
+                            </div>
+                            <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-shipping-fast text-primary fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="service-item">
+                        <div class="service-img">
+                            <img src="img\hospiagric.jpg" class="img-fluid w-100" alt="Hospitality and Agribusiness">
+                        </div>
+                        <div class="service-content text-center p-4">
+                            <div class="bg-secondary btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                <i class="fas fa-seedling text-primary fa-4x"></i>
+                            </div>
+                            <a href="{{ url('about') }}" class="d-block fs-4 my-4">Hospitality and Agribusiness</a>
+                            <p class="text-white mb-4">We are involved in hospitality and agribusiness through our
+                                agricultural and supply department.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
+                        </div>
+                        <div class="service-tytle">
+                            <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                <h4>Hospitality and Agribusiness</h4>
+                            </div>
+                            <div class="btn-xl-square bg-secondary p-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-seedling text-primary fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                    <a class="btn btn-secondary py-3 px-5 mt-4" href="{{ url('about') }}">More Services</a>
+                    <a class="btn btn-secondary py-3 px-5 mt-4" href="{{ url('contact') }}">More Services</a>
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Services End -->
+
+
+
+    </div>
+    </div>
     </div>
     <!-- Services End -->
 

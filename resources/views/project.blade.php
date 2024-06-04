@@ -133,11 +133,11 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Residential Construction</p>
-                                    <a href="{{ url('about') }}" class="h4">Luxurious Apartments in Kinshasa</a>
-                                    <p class="mb-0 mt-3">Kizuri Holding SARL completed a state-of-the-art apartment
-                                        complex in the heart of Kinshasa, providing modern living spaces with premium
-                                        amenities.</p>
+                                    <p class="fs-5 text-secondary mb-2">Bush Clearing</p>
+                                    <a href="{{ url('about') }}" class="h4">Extensive Land Clearing in
+                                        Mbandaka</a>
+                                    <p class="mb-0 mt-3">Kizuri Holding SARL successfully completed a large-scale bush
+                                        clearing project, making way for future agricultural and developmental use.</p>
                                 </div>
                                 <a class="btn btn-primary py-2 px-4" href="{{ url('about') }}">Read More</a>
                             </div>
@@ -154,40 +154,40 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Commercial Development</p>
-                                    <a href="{{ url('about') }}" class="h4">Modern Office Park in Lubumbashi</a>
-                                    <p class="mb-0 mt-3">This project involved the construction of a cutting-edge
-                                        office
-                                        park, catering to the needs of businesses with advanced facilities and ample
-                                        parking space.</p>
+                                    <p class="fs-5 text-secondary mb-2">Mass Excavation</p>
+                                    <a href="{{ url('about') }}" class="h4">Mass Excavation for Industrial Site
+                                        in Kolwezi</a>
+                                    <p class="mb-0 mt-3">This project involved extensive earthworks to prepare a large
+                                        site for industrial development, including leveling and foundation preparation.
+                                    </p>
                                 </div>
                                 <a class="btn btn-primary py-2 px-4" href="{{ url('about') }}">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="project-item">
                         <div class="row g-4">
                             <div class="col-md-4">
                                 <div class="project-img">
-                                    <img src="img/project-3.jpg" class="img-fluid w-100 pt-3 ps-3" alt="">
+                                    <img src="img\roadworks.jpg" class="img-fluid w-100 pt-3 ps-3" alt="">
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Infrastructure</p>
-                                    <a href="{{ url('about') }}" class="h4">New Highway Construction</a>
-                                    <p class="mb-0 mt-3">Kizuri Holding SARL successfully completed the construction of
-                                        a new highway, enhancing transportation efficiency and connectivity between
-                                        major cities.</p>
+                                    <p class="fs-5 text-secondary mb-2">Road Works</p>
+                                    <a href="{{ url('about') }}" class="h4">Highway Expansion in Bukavu</a>
+                                    <p class="mb-0 mt-3">Kizuri Holding SARL completed a major highway expansion
+                                        project, improving transportation infrastructure and connectivity in the region.
+                                    </p>
                                 </div>
                                 <a class="btn btn-primary py-2 px-4" href="{{ url('about') }}">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="project-item">
                         <div class="row g-4">
                             <div class="col-md-4">
@@ -197,25 +197,25 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="project-content mb-4">
-                                    <p class="fs-5 text-secondary mb-2">Industrial Construction</p>
-                                    <a href="{{ url('about') }}" class="h4">Eco-Friendly Manufacturing Plant</a>
-                                    <p class="mb-0 mt-3">This project saw the development of an eco-friendly
-                                        manufacturing plant, featuring green building practices and sustainable energy
-                                        solutions.</p>
+                                    <p class="fs-5 text-secondary mb-2">Transport & Logistics</p>
+                                    <a href="{{ url('about') }}" class="h4">Logistics Network Setup in Goma</a>
+                                    <p class="mb-0 mt-3">This project involved establishing a comprehensive logistics
+                                        network to enhance the efficiency and reliability of goods transportation across
+                                        the region.</p>
                                 </div>
                                 <a class="btn btn-primary py-2 px-4" href="{{ url('about') }}">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="1.0s">
                     <a class="btn btn-secondary py-3 px-5" href="{{ url('contact') }}">More Projects</a>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Projects End -->
+
 
     <div style="background-color: #f2f2f2; padding: 50px 0;">
         <div style="max-width: 800px; margin: auto; text-align: center;">

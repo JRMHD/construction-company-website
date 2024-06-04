@@ -129,11 +129,12 @@
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
                     <div class="about-item-content">
-                        <p class="text-uppercase text-secondary fs-5 mb-0">ABOUT KIZURI HOLDINGS</p>
-                        <h2 class="display-4 text-capitalize mb-3">Making Your Construction Vision a Reality.</h2>
-                        <p class="mb-4 fs-5">Kizuri Holdings is a leading construction company dedicated to delivering
-                            high-quality projects with precision and excellence. With a focus on customer satisfaction
-                            and attention to detail, we bring your construction vision to life.</p>
+                        <p class="text-uppercase text-secondary fs-5 mb-0">PROVIDING BEST SOLUTIONS TO CUSTOMERS</p>
+                        <h2 class="display-4 text-capitalize mb-3">Catalyzing Sustainable Economic Growth in DRC</h2>
+                        <p class="mb-4 fs-5">Our main aim is to provide best solutions to the customers through our
+                            wide range of products and Services. We fully intend on building on our history of success
+                            so that Kizuri Holding may be a catalyst to a sustainable economy in DRC Congo for many
+                            decades to come.</p>
                         <div class="pb-4 mb-4 border-bottom">
                             <div class="row g-4">
                                 <div class="col-lg-4">
@@ -144,44 +145,41 @@
                                 <div class="col-lg-8">
                                     <div class="d-flex mb-4">
                                         <div class="text-secondary">
-                                            <i class="fas fa-user-shield fa-3x"></i>
+                                            <i class="fas fa-industry fa-3x"></i>
                                         </div>
-                                        <h4 class="ms-3">Commitment to Quality</h4>
+                                        <h4 class="ms-3">Wide Range of Services</h4>
                                     </div>
                                     <div class="d-flex">
                                         <div class="text-secondary">
-                                            <i class="fas fa-users-cog fa-3x"></i>
+                                            <i class="fas fa-leaf fa-3x"></i>
                                         </div>
-                                        <h4 class="ms-3">Expert Engineering Team</h4>
+                                        <h4 class="ms-3">Hospitality and Agribusiness</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row gy-0 gx-4 justify-content-between pb-4">
                             <div class="col-lg-6">
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Guaranteed
-                                    Satisfaction
-                                </p>
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Skilled
-                                    Workforce
-                                </p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Excellent
+                                    Customer Service</p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Experienced
+                                    Professionals</p>
                             </div>
                             <div class="col-lg-6">
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Annual
-                                    Maintenance
-                                    Programs</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i> Flexible
-                                    and
-                                    Cost-Effective Solutions</p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Quality Products
+                                    and Services</p>
+                                <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i>
+                                    Environmental Responsibility</p>
                             </div>
                         </div>
                         <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp"
-                            data-wow-delay="0.1s" href="{{ url('service') }}">Learn More</a>
+                            data-wow-delay="0.1s" href="{{ url('about') }}">Discover More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- About End -->
     <div style="background-color: #f2f2f2; padding: 50px 0;">
         <div style="max-width: 800px; margin: auto; text-align: center;">
@@ -199,43 +197,45 @@
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <p class="text-uppercase text-secondary fs-5 mb-0">WHY CHOOSE US</p>
-                <h2 class="display-4 text-capitalize mb-3">Why Choose Kizuri Holdings</h2>
+                <h2 class="display-4 text-capitalize mb-3">Why Choose Kizuri Holding SARL</h2>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-city text-primary fa-5x"></i>
+                            <i class="fas fa-user-shield text-primary fa-5x"></i>
                         </div>
-                        <a href="#" class="h4 d-block my-4">Expert Engineering Team</a>
-                        <p class="mb-0">At Kizuri Holdings, we have a team of experienced and qualified engineers
-                            dedicated to delivering excellence in every project.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Professionalism and Integrity</a>
+                        <p class="mb-0">We are committed to maintaining the highest standards of professionalism and
+                            integrity in all our operations.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-funnel-dollar text-primary fa-5x"></i>
+                            <i class="fas fa-users-cog text-primary fa-5x"></i>
                         </div>
-                        <a href="#" class="h4 d-block my-4">Free Estimates</a>
-                        <p class="mb-0">At Kizuri Holdings, we provide free estimates to our clients, ensuring
-                            transparency and trust in our pricing.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Experienced Team</a>
+                        <p class="mb-0">Our team of skilled professionals and engineers ensure efficiency,
+                            durability, and safety in every project.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-tools text-primary fa-5x"></i>
+                            <i class="fas fa-check-circle text-primary fa-5x"></i>
                         </div>
-                        <a href="#" class="h4 d-block my-4">Quality Materials</a>
-                        <p class="mb-0">At Kizuri Holdings, we use only the highest quality materials in our
-                            construction projects, ensuring durability and longevity.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Commitment to Quality</a>
+                        <p class="mb-0">We provide quality products and services, adhering to the highest standards
+                            to meet and exceed client expectations.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Features End -->
+
+
 
 
 

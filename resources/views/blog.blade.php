@@ -125,7 +125,7 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="blog-item h-100">
                         <div class="blog-img">
-                            <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Sustainable Building Techniques">
+                            <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Bush Clearing Innovations">
                         </div>
                         <div class="blog-content p-4">
                             <div class="d-flex justify-content-between mb-3">
@@ -133,59 +133,57 @@
                                 </p>
                                 <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Innovations in Sustainable Building
+                            <a href="{{ url('about') }}" class="h4 d-block mb-4">Innovations in Bush Clearing
                                 Techniques</a>
-                            <p>Discover how Kizuri Holding SARL is leading the way in sustainable construction with new
-                                eco-friendly materials and practices.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
+                            <p>Discover how Kizuri Holding SARL is pioneering new techniques in bush clearing to enhance
+                                efficiency and environmental sustainability.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item h-100">
                         <div class="blog-img">
-                            <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Community Development Projects">
+                            <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Mass Excavation Projects">
                         </div>
                         <div class="blog-content p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 20 April
-                                    2024
-                                </p>
+                                    2024</p>
                                 <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Community Development Projects:
-                                Building for the
-                                Future</a>
-                            <p>Learn about our latest community development projects designed to improve living
-                                standards and foster economic growth in local communities.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
+                            <a href="{{ url('about') }}" class="h4 d-block mb-4">Mass Excavation Projects:
+                                Challenges and Solutions</a>
+                            <p>Learn about the challenges and innovative solutions involved in our latest mass
+                                excavation projects across various sites.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="blog-item h-100">
                         <div class="blog-img">
-                            <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Infrastructure Advances">
+                            <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Road Work Developments">
                         </div>
                         <div class="blog-content p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 10 March
-                                    2024
-                                </p>
+                                    2024</p>
                                 <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Infrastructure Advances:
-                                Connecting
-                                Communities</a>
-                            <p>Explore how Kizuri Holding SARL is enhancing infrastructure across the region, promoting
-                                connectivity and economic development.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
+                            <a href="{{ url('about') }}" class="h4 d-block mb-4">Road Work Developments: Enhancing
+                                Connectivity</a>
+                            <p>Explore how our road work projects are improving transportation infrastructure and
+                                connectivity in various regions.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('about') }}">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Blog End -->
+
 
 
 
