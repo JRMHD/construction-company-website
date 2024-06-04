@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\QuoteRequestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +57,4 @@ require __DIR__ . '/auth.php';
 
 Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/submit_quote', [QuoteRequestController::class, 'store'])->name('quote.store');

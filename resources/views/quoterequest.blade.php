@@ -108,7 +108,13 @@
             <h2>Request a Quote</h2>
             <p>Fill out the form below and we'll get back to you with a personalized quote.</p>
         </div>
-        <form action="submit_quote.php" method="POST">
+        @if (session('success'))
+            <div class="alert" style="background-color: #d4edda; color: #155724; border-color: #c3e6cb;">
+                {{ session('success') }}
+            </div>
+        @endif
+        <form action="{{ route('quote.store') }}" method="POST">
+            @csrf
             <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" required>
