@@ -120,7 +120,7 @@
                 <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
                     <div class="about-item-image d-flex">
                         <img src="img/about.jpg" class="img-1 img-fluid w-50" alt="">
-                        <img src="img/about-3.jpg" class="img-2 img-fluid w-50" alt="">
+                        <img src="img/about-3.jpg" class="img-fluid w-50" alt="">
                         <div class="about-item-image-content">
                             <img src="img/about-1.png" class="img-fluid w-100 h-100" style="object-fit: cover;"
                                 alt="">
@@ -129,12 +129,14 @@
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
                     <div class="about-item-content">
-                        <p class="text-uppercase text-secondary fs-5 mb-0">PROVIDING BEST SOLUTIONS TO CUSTOMERS</p>
-                        <h2 class="display-4 text-capitalize mb-3">Catalyzing Sustainable Economic Growth in DRC</h2>
-                        <p class="mb-4 fs-5">Our main aim is to provide best solutions to the customers through our
-                            wide range of products and Services. We fully intend on building on our history of success
-                            so that Kizuri Holding may be a catalyst to a sustainable economy in DRC Congo for many
-                            decades to come.</p>
+                        <p class="text-uppercase text-secondary fs-5 mb-0">Multi-Sector Congolese Company</p>
+                        <h2 class="display-4 text-capitalize mb-3">KIZURI HOLDING SARL</h2>
+                        <p class="mb-4 fs-5">
+                            Established in 2022, KIZURI HOLDING SARL is a multi-sector Company based in HAUT-KATANGA
+                            PROVINCE of the Democratic Republic of Congo and headquartered in the city of Lubumbashi.
+                            Our main aim is to provide the best solutions to our clients through our wide range of
+                            products.
+                        </p>
                         <div class="pb-4 mb-4 border-bottom">
                             <div class="row g-4">
                                 <div class="col-lg-4">
@@ -145,31 +147,31 @@
                                 <div class="col-lg-8">
                                     <div class="d-flex mb-4">
                                         <div class="text-secondary">
-                                            <i class="fas fa-industry fa-3x"></i>
+                                            <i class="fas fa-cubes fa-3x"></i>
                                         </div>
-                                        <h4 class="ms-3">Wide Range of Services</h4>
+                                        <h4 class="ms-3">Wide Range of Products</h4>
                                     </div>
                                     <div class="d-flex">
                                         <div class="text-secondary">
-                                            <i class="fas fa-leaf fa-3x"></i>
+                                            <i class="fas fa-handshake fa-3x"></i>
                                         </div>
-                                        <h4 class="ms-3">Hospitality and Agribusiness</h4>
+                                        <h4 class="ms-3">Customer-Focused Solutions</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row gy-0 gx-4 justify-content-between pb-4">
                             <div class="col-lg-6">
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Excellent
-                                    Customer Service</p>
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Experienced
-                                    Professionals</p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Quality Products
+                                </p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Experienced Team
+                                </p>
                             </div>
                             <div class="col-lg-6">
-                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Quality Products
-                                    and Services</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i>
-                                    Environmental Responsibility</p>
+                                <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Client
+                                    Satisfaction</p>
+                                <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i> Proven
+                                    Track Record</p>
                             </div>
                         </div>
                         <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp"
@@ -179,6 +181,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- About End -->
     <div style="background-color: #f2f2f2; padding: 50px 0;">
@@ -197,37 +200,37 @@
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <p class="text-uppercase text-secondary fs-5 mb-0">WHY CHOOSE US</p>
-                <h2 class="display-4 text-capitalize mb-3">Why Choose Kizuri Holding SARL</h2>
+                <h2 class="display-4 text-capitalize mb-3">Our Three Promises to You</h2>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-user-shield text-primary fa-5x"></i>
+                            <i class="fas fa-money-bill-wave text-primary fa-5x"></i>
                         </div>
-                        <a href="{{ url('about') }}" class="h4 d-block my-4">Professionalism and Integrity</a>
-                        <p class="mb-0">We are committed to maintaining the highest standards of professionalism and
-                            integrity in all our operations.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Save Money</a>
+                        <p class="mb-0">We are committed to providing cost-effective solutions that help you save
+                            money.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-users-cog text-primary fa-5x"></i>
+                            <i class="fas fa-chart-line text-primary fa-5x"></i>
                         </div>
-                        <a href="{{ url('about') }}" class="h4 d-block my-4">Experienced Team</a>
-                        <p class="mb-0">Our team of skilled professionals and engineers ensure efficiency,
-                            durability, and safety in every project.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Value for Money</a>
+                        <p class="mb-0">Our services and products deliver exceptional value, ensuring your investment
+                            pays off.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="feature-item text-center border p-5">
                         <div class="feature-img bg-secondary d-inline-flex p-4">
-                            <i class="fas fa-check-circle text-primary fa-5x"></i>
+                            <i class="fas fa-handshake text-primary fa-5x"></i>
                         </div>
-                        <a href="{{ url('about') }}" class="h4 d-block my-4">Commitment to Quality</a>
-                        <p class="mb-0">We provide quality products and services, adhering to the highest standards
-                            to meet and exceed client expectations.</p>
+                        <a href="{{ url('about') }}" class="h4 d-block my-4">Grow the DRC Economy</a>
+                        <p class="mb-0">By choosing us, you are supporting a competent local company and contributing
+                            to the growth of the DRC economy.</p>
                     </div>
                 </div>
             </div>

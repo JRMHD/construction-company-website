@@ -41,10 +41,11 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
                     <h4 class="text-white mb-4">Our Services</h4>
-                    <a href="{{ url('project') }}"><i class="fas fa-angle-right me-2"></i> Bush clearing</a>
+                    <a href="{{ url('project') }}"><i class="fas fa-angle-right me-2"></i> Earthworks</a>
                     <a href="{{ url('service') }}"><i class="fas fa-angle-right me-2"></i> Equipment rentals</a>
                     <!-- Removed some extra services -->
-                    <a href="{{ url('project') }}"><i class="fas fa-angle-right me-2"></i> Excavation</a>
+                    <a href="{{ url('project') }}"><i class="fas fa-angle-right me-2"></i> Fabrication &
+                        Installation</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
