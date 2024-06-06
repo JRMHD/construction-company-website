@@ -54,7 +54,7 @@
     <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="Logo" style="width: 150px; height: auto;">
+                <img src="img\IMG_0135 (1).jpg" alt="Logo" style="width: 110px; height: auto;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -112,7 +112,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="First slide" />
+                    <img src="img\open pit 1.jpg" class="img-fluid w-100" alt="First slide" />
                     <div class="carousel-caption">
                         <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
                             data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Multi-Sector
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Second slide" />
+                    <img src="img\open pit 2.jpg" class="img-fluid w-100" alt="Second slide" />
                     <div class="carousel-caption">
                         <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
                             data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Diverse Solutions
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide" />
+                    <img src="img\open pit 3.jpg" class="img-fluid w-100" alt="Third slide" />
                     <div class="carousel-caption">
                         <p class="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated"
                             data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Client-Focused</p>
@@ -255,16 +255,16 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/service-2.jpg" class="card-img-top" alt="Equipment Rentals">
+                    <img src="img\bushclear.jpg" class="card-img-top" alt="Bush Clearing Works">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #343a40;">Equipment Rentals</h5>
+                        <h5 class="card-title" style="color: #343a40;">Bush Clearing Works</h5>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/service-3.jpg" class="card-img-top" alt="Earthworks">
+                    <img src="img\earthww.jpg" class="card-img-top" alt="Earthworks">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">Earthworks</h5>
                     </div>
@@ -273,7 +273,43 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/service-4.jpg" class="card-img-top" alt="Civil Works">
+                    <img src="img\rentals.jpg" class="card-img-top" alt="Equipment Rentals">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #343a40;">Equipment Rentals</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="service-card h-100">
+                    <img src="img\hauling.jpg" class="card-img-top" alt="Loading & Haulage">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #343a40;">Loading & Haulage</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="service-card h-100">
+                    <img src="img\mining.jpg" class="card-img-top" alt="Tailings Dams Construction">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #343a40;">Tailings Dams Construction</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="service-card h-100">
+                    <img src="img\printing.jpg" class="card-img-top" alt="Printing & Signage">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #343a40;">Printing & Signage</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="service-card h-100">
+                    <img src="img\civilworks.jpg" class="card-img-top" alt="Civil Works">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">Civil Works</h5>
                     </div>
@@ -282,7 +318,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/service-6.jpg" class="card-img-top" alt="Piping Works">
+                    <img src="img\Piping.jpg" class="card-img-top" alt="Piping Works">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">Piping Works</h5>
                     </div>
@@ -291,7 +327,7 @@
 
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/service-5.jpg" class="card-img-top" alt="Fabrication & Installation">
+                    <img src="img\fabriins.jpg" class="card-img-top" alt="Fabrication & Installation">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">Fabrication & Installation</h5>
                     </div>
@@ -306,88 +342,66 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/translogis.jpg" class="card-img-top"
-                        alt="Surface Mining (Loading & Hauling, drilling)">
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #343a40;">Surface Mining</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="service-card h-100">
-                    <img src="img/hospiagric.jpg" class="card-img-top" alt="Printing & Signage">
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #343a40;">Printing & Signage</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="service-card h-100">
-                    <img src="img/service-1.jpg" class="card-img-top" alt="Tailings Dams Construction">
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #343a40;">Tailings Dams Construction</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <div class="service-card h-100">
-                    <img src="img/maintenance.jpg" class="card-img-top" alt="Maintenance Service">
+                    <img src="img\servicemains.jpg" class="card-img-top" alt="Maintenance Service">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">Maintenance Service</h5>
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-3 col-md-6 mb-4">
                 <div class="service-card h-100">
-                    <img src="img/general-supplies.jpg" class="card-img-top" alt="General Supplies">
+                    <img src="img\gensupplies.jpg" class="card-img-top" alt="General Supplies">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #343a40;">General Supplies</h5>
                     </div>
                 </div>
             </div>
-
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-12 text-center mb-5">
-                <h2 class="display-4 mb-3 text-uppercase" style="color: #dc3545;">Our Core Values</h2>
-            </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-handshake"></i>
-                <p class="mt-2" style="color: #343a40;">Integrity</p>
-            </div>
+    </div>
 
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-user-tie"></i>
-                <p class="mt-2" style="color: #343a40;">Professionalism</p>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-lightbulb"></i>
-                <p class="mt-2" style="color: #343a40;">Innovation</p>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-heart"></i>
-                <p class="mt-2" style="color: #343a40;">Compassion</p>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-sync-alt"></i>
-                <p class="mt-2" style="color: #343a40;">Adaptability</p>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-user-shield"></i>
-                <p class="mt-2" style="color: #343a40;">Loyalty</p>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
-                <i class="core-value-icon fas fa-users"></i>
-                <p class="mt-2" style="color: #343a40;">Teamwork</p>
-            </div>
+
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-12 text-center mb-5">
+            <h2 class="display-4 mb-3 text-uppercase" style="color: #dc3545;">Our Core Values</h2>
         </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-handshake"></i>
+            <p class="mt-2" style="color: #343a40;">Integrity</p>
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-user-tie"></i>
+            <p class="mt-2" style="color: #343a40;">Professionalism</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-lightbulb"></i>
+            <p class="mt-2" style="color: #343a40;">Innovation</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-heart"></i>
+            <p class="mt-2" style="color: #343a40;">Compassion</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-sync-alt"></i>
+            <p class="mt-2" style="color: #343a40;">Adaptability</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-user-shield"></i>
+            <p class="mt-2" style="color: #343a40;">Loyalty</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 text-center mb-4">
+            <i class="core-value-icon fas fa-users"></i>
+            <p class="mt-2" style="color: #343a40;">Teamwork</p>
+        </div>
+    </div>
 
     </div>
 
@@ -615,208 +629,225 @@
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <p class="text-uppercase text-secondary fs-5 mb-0">Our Projects</p>
-                <h2 class="display-4 text-capitalize mb-3" style="color: #dc3545;">Recent Completed Projects</h2>
+                <h2 class="display-4 text-capitalize mb-3" style="color: #dc3545;">Recently Completed Projects</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/contact.jpg" class="card-img-top" alt="Equipment Rental Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Equipment Rental for Mining Operation</h5>
-                            <p class="card-text">Successfully supplied a fleet of heavy equipment for a major mining
-                                operation in Haut-Katanga Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/earthworks.jpg" class="card-img-top" alt="Earthworks Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Earthworks for Industrial Complex</h5>
-                            <p class="card-text">Completed extensive earthworks for the construction of a large
-                                industrial complex in Lubumbashi.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-4.jpg" class="card-img-top" alt="Civil Works Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Civil Works for Urban Development</h5>
-                            <p class="card-text">Provided civil engineering services for a major urban development
-                                project in Kolwezi.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-6.jpg" class="card-img-top" alt="Piping Works Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Piping System for Chemical Plant</h5>
-                            <p class="card-text">Designed and installed a complex piping system for a chemical
-                                processing plant in Lubumbashi.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
 
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="service-card h-100">
-                        <img src="img/service-5.jpg" class="card-img-top" alt="Fabrication & Installation">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Fabrication & Installation of Storage Tanks
-                            </h5>
-                            <p class="card-text">Fabricated and installed large-scale storage tanks for a mining
-                                facility in Lualaba Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/roadworks.jpg" class="card-img-top"
-                            alt="Road Construction & Maintenance Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Road Maintenance for Rural Community</h5>
-                            <p class="card-text">Partnered with a local community to maintain and repair rural roads in
-                                Haut-Katanga Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/translogis.jpg" class="card-img-top" alt="Surface Mining Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Surface Mining Operations Support</h5>
-                            <p class="card-text">Provided loading, hauling, and drilling services for a surface mining
-                                operation in Kipushi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-1.jpg" class="card-img-top" alt="Tailings Dam Construction">
+                        <img src="img\mining.jpg" class="card-img-top" alt="Tailings Dam Construction">
                         <div class="card-body">
                             <h5 class="card-title" style="color: #343a40;">Tailings Dam Construction</h5>
-                            <p class="card-text">Engineered and constructed a tailings dam for a mining operation in
-                                Haut-Katanga Province.</p>
+                            <p class="card-text">Kizuri completed a tailings dam construction at SOMIKA mining company
+                                at their Lupoto site in year 2022.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\fabriins.jpg" class="card-img-top" alt="Fabrication & Installation">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Fabrication & Installation</h5>
+                            <p class="card-text">Kizuri completed fabrication and installations of fuel storage tanks
+                                construction and piping works for one of out client in lubumbashi on route likasi in
+                                year 2023. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\earthww.jpg" class="card-img-top" alt="Earthworks Project">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Earthworks Project</h5>
+                            <p class="card-text">Kizuri machineries doing earthworks for an open-pit mine development
+                                project in likasi area outside lubumbashi,DRC. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\bushclear.jpg" class="card-img-top" alt="Bush Clearing Project">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Bush Clearing Works</h5>
+                            <p class="card-text">Kizuri did a bush clearing works to the client's satisfaction for
+                                TERRA FARM located on route kasenga outside of lubumbashi, DRC ,the farm is a subsidiary
+                                of SOMIKA GROUP .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\ourvalues.jpg" class="card-img-top" alt="Our Values">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Our Values</h5>
+                            <p class="card-text">Our values in passion and safety of our team apply always at site.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\paultryfarm.jpg" class="card-img-top" alt="Poultry Farm Construction">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Poultry Farm Construction</h5>
+                            <p class="card-text">Kizuri finished construction of a poultry farm houses with capacity of
+                                15,000birds at KANYAKA in 2024 for our client FERME BARAKA SARL.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\worksearth.jpg" class="card-img-top" alt="Open-Pit Mine Development">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Open-Pit Mine Development & Earthworks</h5>
+                            <p class="card-text">Earthworks and open pit mine development completed for
+                                a client at bazano concession 45km outside lubumbashi in 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\supervision.jpg" class="card-img-top" alt="Site Supervision">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Site Supervision</h5>
+                            <p class="card-text">In every site we are operating in we put a highly motivated and
+                                skilled site supervisors , engiiers and maintenance managers to ensure your projects is
+                                delivered on schedule</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\backhole.jpg" class="card-img-top" alt="Backhoe Loader Services">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Backhoe Loader</h5>
+                            <p class="card-text">Our Backhoe loader doing some maintainace works in a Car park in
+                                Lubumbashi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\crushing.jpg" class="card-img-top" alt="Crushing Site Operations">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Crushing Site Operations</h5>
+                            <p class="card-text">Kizuri holding machines working in a crashing site inside our client
+                                site at MMG KINSEVERE MINE IN lubumbashi drc</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-        <!-- Projects End -->
-
+    </div>
 
 
+    <!-- Projects End -->
 
-        <!-- Blog Start -->
-        <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">News & Blog</p>
-                    <h2 class="display-4 text-capitalize mb-3">Our Latest News and Articles</h2>
+
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid blog pb-5">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <p class="text-uppercase text-secondary fs-5 mb-0">News & Blog</p>
+                <h2 class="display-4 text-capitalize mb-3">Our Latest News and Articles</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item h-100">
+                        <div class="blog-img">
+                            <img src="img\mining.jpg" class="img-fluid w-100" alt="Tailings Dam Construction">
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2022</p>
+                                <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
+                            </div>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Tailings Dam Construction
+                                Completed</a>
+                            <p class="card-text">Kizuri completed a tailings dam construction at SOMIKA mining company
+                                at their Lupoto site.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/contact.jpg" class="img-fluid w-100"
-                                    alt="Equipment Rental Solutions">
+
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="blog-item h-100">
+                        <div class="blog-img">
+                            <img src="img\bushclear.jpg" class="img-fluid w-100" alt="Bush Clearing Project">
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2023 </p>
+                                <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 15 June
-                                        2024</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="{{ url('contact') }}" class="h4 d-block mb-4">Choosing the Right
-                                    Equipment for Your Project</a>
-                                <p>Learn how to select the right equipment for your specific project needs, maximizing
-                                    efficiency and minimizing costs.</p>
-                                <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read
-                                    More</a>
-                            </div>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Bush Clearing Success at TERRA
+                                FARM</a>
+                            <p class="card-text">Kizuri successfully completed bush clearing works for TERRA FARM, a
+                                subsidiary of SOMIKA GROUP, on route Kasenga.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/earthworks.jpg" class="img-fluid w-100" alt="Earthworks Expertise">
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 05 June
-                                        2024</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="{{ url('contact') }}" class="h4 d-block mb-4">Kizuri's Expertise in
-                                    Earthworks and Land Development</a>
-                                <p>Explore our proven expertise in earthworks, from open pit mine development to complex
-                                    civil works projects.</p>
-                                <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
-                            </div>
+                </div>
+
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="blog-item h-100">
+                        <div class="blog-img">
+                            <img src="img\worksearth.jpg" class="img-fluid w-100" alt="Open-Pit Mine Development">
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/roadworks.jpg" class="img-fluid w-100"
-                                    alt="Road Construction and Maintenance">
+                        <div class="blog-content p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2024</p>
+                                <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 28 May
-                                        2024</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="{{ url('contact') }}" class="h4 d-block mb-4">The Importance of
-                                    Road Infrastructure in the DRC</a>
-                                <p>Learn about the critical role of road infrastructure in economic development and how
-                                    Kizuri is contributing to its improvement.</p>
-                                <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read
-                                    More</a>
-                            </div>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Open-Pit Mine Development and
+                                Earthworks Completed</a>
+                            <p class="card-text">Kizuri completed earthworks and open-pit mine development at the
+                                Bazano concession, 45km outside Lubumbashi.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Blog End -->
-
-
-        @include('footer')
+    <!-- Blog End -->
 
 
-
-        <!-- Back to Top -->
-        <a href="{{ url('about') }}" class="btn btn-secondary btn-lg-square back-to-top"><i
-                class="fa fa-arrow-up"></i></a>
+    @include('footer')
 
 
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Back to Top -->
+    <a href="{{ url('about') }}" class="btn btn-secondary btn-lg-square back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
 
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

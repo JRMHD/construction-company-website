@@ -104,7 +104,7 @@
 
     <div class="container">
         <div class="header">
-            <img src="img/logo.png" alt="Kizuri Holding SARL Logo">
+            <img src="img\IMG_0135 (1).jpg" alt="Kizuri Holding SARL Logo">
             <h2>Request a Quote</h2>
             <p>Fill out the form below and we'll get back to you with a personalized quote.</p>
         </div>

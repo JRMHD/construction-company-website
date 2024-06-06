@@ -54,7 +54,7 @@
     <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="Logo" style="width: 150px; height: auto;">
+                <img src="img\IMG_0135 (1).jpg" alt="Logo" style="width: 110px; height: auto;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -146,7 +146,34 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 card-hover-effect">
                     <div class="card-img-top-container">
-                        <img src="img/service-2.jpg" class="card-img-top" alt="Equipment Rental">
+                        <img src="img\bushclear.jpg" class="card-img-top" alt="Bush Clearing Works">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545;">Bush Clearing Works</h5>
+                        <p class="card-text">Kizuri efficiently clears land for development projects, ensuring safe and
+                            accessible sites.</p>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 card-hover-effect">
+                    <div class="card-img-top-container">
+                        <img src="img\earthww.jpg" class="card-img-top" alt="Earth Works">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545;">Earthworks</h5>
+                        <p class="card-text">Experts in development of open pit mines and civil projects.</p>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 card-hover-effect">
+                    <div class="card-img-top-container">
+                        <img src="img\rentals.jpg" class="card-img-top" alt="Equipment Rental">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title" style="color: #dc3545;">Equipment Rental</h5>
@@ -160,11 +187,11 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 card-hover-effect">
                     <div class="card-img-top-container">
-                        <img src="img/service-3.jpg" class="card-img-top" alt="Earth Works">
+                        <img src="img\loadinghaulage.jpg" class="card-img-top" alt="Loading & Haulage">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Earth Works</h5>
-                        <p class="card-text">Expert land development for open pit mines and civil projects.</p>
+                        <h5 class="card-title" style="color: #dc3545;">Loading & Haulage</h5>
+                        <p class="card-text">Efficient loading and hauling of materials using our fleet of trucks.</p>
                         <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
                     </div>
                 </div>
@@ -173,21 +200,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 card-hover-effect">
                     <div class="card-img-top-container">
-                        <img src="img/service-5.jpg" class="card-img-top" alt="Fabrication & Installation">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Fabrication & Installation</h5>
-                        <p class="card-text">Design and fabrication of steel tanks, petrol stations, fuel storage
-                            tanks, and more.</p>
-                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 card-hover-effect">
-                    <div class="card-img-top-container">
-                        <img src="img/service-1.jpg" class="card-img-top" alt="Tailings Dams">
+                        <img src="img\mining.jpg" class="card-img-top" alt="Tailings Dams">
                     </div>
                     <div class="card-body">
                         <h5 class="card-title" style="color: #dc3545;">Tailings Dams</h5>
@@ -201,11 +214,50 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100 card-hover-effect">
                     <div class="card-img-top-container">
-                        <img src="img/translogis.jpg" class="card-img-top" alt="Loading & Haulage">
+                        <img src="img\printing.jpg" class="card-img-top" alt="Printing & Signage">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Loading & Haulage</h5>
-                        <p class="card-text">Efficient loading and hauling of materials using our fleet of trucks.</p>
+                        <h5 class="card-title" style="color: #dc3545;">Printing & Signage</h5>
+                        <p class="card-text">customized printing and signage for retail and corporate clients.</p>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 card-hover-effect">
+                    <div class="card-img-top-container">
+                        <img src="img\civilworks.jpg" class="card-img-top" alt="Civil Works">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545;">Civil Works</h5>
+                        <p class="card-text">We provide comprehensive civil engineering solutions for infrastructure
+                            projects, including roads, bridges, and drainage systems.</p>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 card-hover-effect">
+                    <div class="card-img-top-container">
+                        <img src="img\Piping.jpg" class="card-img-top" alt="Piping Works">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545;">Piping Works</h5>
+                        <p class="card-text">Kizuri designs, fabricates, and installs reliable piping systems for
+                            various industrial applications, ensuring efficient fluid transport.</p>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 card-hover-effect">
+                    <div class="card-img-top-container">
+                        <img src="img\fabriins.jpg" class="card-img-top" alt="Fabrication & Installation">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #dc3545;">Fabrication & Installation</h5>
+                        <p class="card-text">Design and fabrication of steel tanks, petrol stations, fuel storage
+                            tanks, and more.</p>
                         <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
                     </div>
                 </div>
@@ -217,40 +269,38 @@
                         <img src="img/roadworks.jpg" class="card-img-top" alt="Road Construction & Maintenance">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Road Construction & Maintenance</h5>
-                        <p class="card-text">Construction and maintenance of dirt and paved roads, on and off mining
+                        <h5 class="card-title" style="color: #dc3545;">Road Construction &
+                            Maintenance</h5>
+                        <p class="card-text">Construction and maintenance of dirt and paved
+                            roads, on and off mining
                             sites.</p>
-                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get
+                            Started</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card h-100 card-hover-effect">
                     <div class="card-img-top-container">
-                        <img src="img/service-6.jpg" class="card-img-top" alt="Maintenance Services">
+                        <img src="img\servicemains.jpg" class="card-img-top" alt="Maintenance Services">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Maintenance Services</h5>
-                        <p class="card-text">Curative and preventive maintenance for mining and construction equipment.
+                        <h5 class="card-title" style="color: #dc3545;">Maintenance Services
+                        </h5>
+                        <p class="card-text">Curative and preventive maintenance for mining and
+                            construction equipment.
                         </p>
-                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
+                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get
+                            Started</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100 card-hover-effect">
-                    <div class="card-img-top-container">
-                        <img src="img/service-4.jpg" class="card-img-top" alt="Printing & Signage">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title" style="color: #dc3545;">Printing & Signage</h5>
-                        <p class="card-text">Custom printing and signage for retail and corporate clients.</p>
-                        <a href="{{ url('quoterequest') }}" class="btn btn-dark">Get Started</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
+
     </div>
+
+
     <!-- Services End -->
 
 

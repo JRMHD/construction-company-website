@@ -54,7 +54,7 @@
     <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="Logo" style="width: 150px; height: auto;">
+                <img src="img\IMG_0135 (1).jpg" alt="Logo" style="width: 110px; height: auto;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -116,145 +116,178 @@
     <!-- Header End -->
 
     <!-- Projects Start -->
+
+
+
+
+    <style>
+        /* Custom CSS for consistent image sizing */
+        .service-card .card-img-top {
+            max-height: 200px;
+            /* Adjust the maximum image height as needed */
+            object-fit: cover;
+            /* Ensures the image covers the area without distortion */
+        }
+    </style>
+
+
+
+
     <div class="container-fluid project py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <p class="text-uppercase text-secondary fs-5 mb-0">Our Projects</p>
-                <h2 class="display-4 text-capitalize mb-3" style="color: #dc3545;">Recent Completed Projects</h2>
+                <h2 class="display-4 text-capitalize mb-3" style="color: #dc3545;">Recently Completed Projects
+                </h2>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/equipment-rental.jpg" class="card-img-top" alt="Equipment Rental Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Equipment Rental for Mining Operation</h5>
-                            <p class="card-text">Successfully supplied a fleet of heavy equipment for a major mining
-                                operation in Haut-Katanga Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/earthworks.jpg" class="card-img-top" alt="Earthworks Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Earthworks for Industrial Complex</h5>
-                            <p class="card-text">Completed extensive earthworks for the construction of a large
-                                industrial complex in Lubumbashi.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-4.jpg" class="card-img-top" alt="Civil Works Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Civil Works for Urban Development</h5>
-                            <p class="card-text">Provided civil engineering services for a major urban development
-                                project in Kolwezi.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-6.jpg" class="card-img-top" alt="Piping Works Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Piping System for Chemical Plant</h5>
-                            <p class="card-text">Designed and installed a complex piping system for a chemical
-                                processing plant in Lubumbashi.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
 
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="service-card h-100">
-                        <img src="img/service-5.jpg" class="card-img-top" alt="Fabrication & Installation">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Fabrication & Installation of Storage Tanks
-                            </h5>
-                            <p class="card-text">Fabricated and installed large-scale storage tanks for a mining
-                                facility in Lualaba Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/roadworks.jpg" class="card-img-top"
-                            alt="Road Construction & Maintenance Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Road Maintenance for Rural Community</h5>
-                            <p class="card-text">Partnered with a local community to maintain and repair rural roads in
-                                Haut-Katanga Province.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/translogis.jpg" class="card-img-top" alt="Surface Mining Project">
-                        <div class="card-body">
-                            <h5 class="card-title" style="color: #343a40;">Surface Mining Operations Support</h5>
-                            <p class="card-text">Provided loading, hauling, and drilling services for a surface mining
-                                operation in Kipushi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="service-card h-100">
-                        <img src="img/service-1.jpg" class="card-img-top" alt="Tailings Dam Construction">
+                        <img src="img\mining.jpg" class="card-img-top" alt="Tailings Dam Construction">
                         <div class="card-body">
                             <h5 class="card-title" style="color: #343a40;">Tailings Dam Construction</h5>
-                            <p class="card-text">Engineered and constructed a tailings dam for a mining operation in
-                                Haut-Katanga Province.</p>
+                            <p class="card-text">Kizuri completed a tailings dam construction at SOMIKA mining
+                                company at their Lupoto site in year 2022.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\fabriins.jpg" class="card-img-top" alt="Fabrication & Installation">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Fabrication & Installation</h5>
+                            <p class="card-text">Kizuri completed fabrication and installations of fuel storage
+                                tanks construction and piping works for one of out client in lubumbashi on route
+                                likasi in year 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\earthww.jpg" class="card-img-top" alt="Earthworks Project">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Earthworks Project</h5>
+                            <p class="card-text">Kizuri machineries doing earthworks for an open-pit mine
+                                development project in likasi area outside lubumbashi,DRC.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\bushclear.jpg" class="card-img-top" alt="Bush Clearing Project">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Bush Clearing Works</h5>
+                            <p class="card-text">Kizuri did a bush clearing works to the client's satisfaction for
+                                TERRA FARM located on route kasenga outside of lubumbashi, DRC ,the farm is a
+                                subsidiary of SOMIKA GROUP .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\ourvalues.jpg" class="card-img-top" alt="Our Values">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Our Values</h5>
+                            <p class="card-text">Our values in passion and safety of our team apply always at site.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\paultryfarm.jpg" class="card-img-top" alt="Poultry Farm Construction">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Poultry Farm Construction</h5>
+                            <p class="card-text">Kizuri finished construction of a poultry farm houses with
+                                capacity of 15,000birds at KANYAKA in 2024 for our client FERME BARAKA SARL.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\worksearth.jpg" class="card-img-top" alt="Open-Pit Mine Development">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Open-Pit Mine Development & Earthworks
+                            </h5>
+                            <p class="card-text">Earthworks and open pit mine development completed
+                                for a client at bazano concession 45km outside lubumbashi in 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\supervision.jpg" class="card-img-top" alt="Site Supervision">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Site Supervision</h5>
+                            <p class="card-text">In every site we are operating in we put a highly motivated and
+                                skilled site supervisors , engiiers and maintenance managers to ensure your projects
+                                is delivered on schedule</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\backhole.jpg" class="card-img-top" alt="Backhoe Loader Services">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Backhoe Loader</h5>
+                            <p class="card-text">Our Backhoe loader doing some maintainace works in a Car park in
+                                Lubumbashi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-card h-100">
+                        <img src="img\crushing.jpg" class="card-img-top" alt="Crushing Site Operations">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #343a40;">Crushing Site Operations</h5>
+                            <p class="card-text">Kizuri holding machines working in a crashing site inside our
+                                client site at MMG KINSEVERE MINE IN lubumbashi drc</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
+    </div>
 
-        <!-- Projects End -->
+
+    <!-- Projects End -->
 
 
-        <div style="background-color: #f2f2f2; padding: 50px 0;">
-            <div style="max-width: 800px; margin: auto; text-align: center;">
-                <h2 style="color: #333; font-size: 32px; margin-bottom: 20px;">Request a Quote</h2>
-                <p style="color: #666; font-size: 18px; margin-bottom: 30px;">Let us bring your project to life. Fill
-                    out
-                    the form below and we'll get back to you as soon as possible.</p>
-                <a href="{{ url('quoterequest') }}"
-                    style="background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; font-size: 16px;">Get
-                    Started</a>
-            </div>
+
+    <div style="background-color: #f2f2f2; padding: 50px 0;">
+        <div style="max-width: 800px; margin: auto; text-align: center;">
+            <h2 style="color: #333; font-size: 32px; margin-bottom: 20px;">Request a Quote</h2>
+            <p style="color: #666; font-size: 18px; margin-bottom: 30px;">Let us bring your project to life. Fill
+                out
+                the form below and we'll get back to you as soon as possible.</p>
+            <a href="{{ url('quoterequest') }}"
+                style="background-color: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; font-size: 16px;">Get
+                Started</a>
         </div>
+    </div>
 
-        @include('footer')
-
-
-        <!-- Back to Top -->
-        <a href="{{ url('about') }}" class="btn btn-secondary btn-lg-square back-to-top"><i
-                class="fa fa-arrow-up"></i></a>
+    @include('footer')
 
 
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Back to Top -->
+    <a href="{{ url('about') }}" class="btn btn-secondary btn-lg-square back-to-top"><i
+            class="fa fa-arrow-up"></i></a>
 
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

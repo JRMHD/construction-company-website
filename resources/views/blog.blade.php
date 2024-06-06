@@ -52,7 +52,7 @@
     <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="Logo" style="width: 150px; height: auto;">
+                <img src="img\IMG_0135 (1).jpg" alt="Logo" style="width: 110px; height: auto;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -121,71 +121,67 @@
                 <p class="text-uppercase text-secondary fs-5 mb-0">News & Blog</p>
                 <h2 class="display-4 text-capitalize mb-3">Our Latest News and Articles</h2>
             </div>
+
             <div class="row g-4">
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="blog-item h-100">
                         <div class="blog-img">
-                            <img src="img/contact.jpg" class="img-fluid w-100" alt="Equipment Rental Solutions">
+                            <img src="img\mining.jpg" class="img-fluid w-100" alt="Tailings Dam Construction">
                         </div>
                         <div class="blog-content p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 15 June
-                                    2024</p>
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2022</p>
                                 <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Choosing the Right
-                                Equipment for Your Project</a>
-                            <p>Learn how to select the right equipment for your specific project needs, maximizing
-                                efficiency and minimizing costs.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read
-                                More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-item h-100">
-                        <div class="blog-img">
-                            <img src="img/earthworks.jpg" class="img-fluid w-100" alt="Earthworks Expertise">
-                        </div>
-                        <div class="blog-content p-4">
-                            <div class="d-flex justify-content-between mb-3">
-                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 05 June
-                                    2024</p>
-                                <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                            </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Kizuri's Expertise in
-                                Earthworks and Land Development</a>
-                            <p>Explore our proven expertise in earthworks, from open pit mine development to complex
-                                civil works projects.</p>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Tailings Dam Construction
+                                Completed</a>
+                            <p class="card-text">Kizuri completed a tailings dam construction at SOMIKA mining company
+                                at their Lupoto site.</p>
                             <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="blog-item h-100">
                         <div class="blog-img">
-                            <img src="img/roadworks.jpg" class="img-fluid w-100"
-                                alt="Road Construction and Maintenance">
+                            <img src="img\bushclear.jpg" class="img-fluid w-100" alt="Bush Clearing Project">
                         </div>
                         <div class="blog-content p-4">
                             <div class="d-flex justify-content-between mb-3">
-                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 28 May
-                                    2024</p>
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2023 </p>
                                 <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
                             </div>
-                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">The Importance of
-                                Road Infrastructure in the DRC</a>
-                            <p>Learn about the critical role of road infrastructure in economic development and how
-                                Kizuri is contributing to its improvement.</p>
-                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read
-                                More</a>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Bush Clearing Success at TERRA
+                                FARM</a>
+                            <p class="card-text">Kizuri successfully completed bush clearing works for TERRA FARM, a
+                                subsidiary of SOMIKA GROUP, on route Kasenga.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="blog-item h-100">
+                        <div class="blog-img">
+                            <img src="img\worksearth.jpg" class="img-fluid w-100" alt="Open-Pit Mine Development">
+                        </div>
+                        <div class="blog-content p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 2024</p>
+                                <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
+                            </div>
+                            <a href="{{ url('contact') }}" class="h4 d-block mb-4">Open-Pit Mine Development and
+                                Earthworks Completed</a>
+                            <p class="card-text">Kizuri completed earthworks and open-pit mine development at the
+                                Bazano concession, 45km outside Lubumbashi.</p>
+                            <a class="btn btn-secondary py-2 px-4" href="{{ url('contact') }}">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <!-- Blog End -->
 

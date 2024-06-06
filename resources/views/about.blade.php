@@ -53,7 +53,7 @@
     <div class="container-fluid sticky-top px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
             <a href="{{ url('/') }}" class="navbar-brand p-0">
-                <img src="img/logo.png" alt="Logo" style="width: 150px; height: auto;">
+                <img src="img\IMG_0135 (1).jpg" alt="Logo" style="width: 110px; height: auto;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
